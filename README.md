@@ -1,6 +1,8 @@
 # Job Portal Application
--Technologies Used: React, Spring Boot, MongoDB, Redux, Tailwind, Mantine,
-Tabler Icons
+## Technologies Used
+- **Frontend:** React, Redux, Tailwind CSS, Mantine, Tabler Icons
+- **Backend:** Spring Boot
+- **Database:** MongoDB
 
 
 ## Live Demo
