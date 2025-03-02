@@ -1,4 +1,7 @@
 # Job Portal Application
+-Technologies Used: React, Spring Boot, MongoDB, Redux, Tailwind, Mantine,
+Tabler Icons
+
 
 ## Live Demo
 - [Live Demo](https://job-portal-seven-psi.vercel.app/)
