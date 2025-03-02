@@ -1,54 +1,122 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Job Portal Application
+## Backend Repository
+- [Backend Repository - GitHub](https://github.com/anishraj12/jobPortal-backend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+1. [Highlighted Features](#highlighted-features)
+2. [User Login](#user-login)
+3. [User Profile Management](#user-profile-management)
+4. [Job Search and Application](#job-search-and-application)
+5. [Employer Functionality](#employer-functionality)
+6. [Notifications and Alerts](#notifications-and-alerts)
+7. [Additional Features](#additional-features)
+8. [Responsiveness and Animations](#responsiveness-and-animations)
+9. [User Registration and Authentication](#user-registration-and-authentication)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Highlighted Features
+- **Notification System**  
+- **Sending OTP via Email**  
+- **Securing APIs using JSON Web Token (JWT)**  
+- **Protected Routes According to Roles**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## User Login
+- **Email and Password Login**  
+  As a user, you can log in using your registered email and password.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Password Management
+- **Forgot Password**  
+  As a user, you can reset your password if you forget it via an email link.
+  
+- **Change Password**  
+  As a user, you can change your password after logging in.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-=======
-# job-portal-frontend
->>>>>>> 33bccf2c46492cf1e51a3caf64f48db2383de344
+---
+
+## User Profile Management
+
+- **Profile Creation and Editing**  
+  As a user, you can create and update your profile with personal details, contact information, and a profile picture.
+
+- **Resume Management**  
+  As a user, you can upload, update, and delete your resume in PDF or DOC format.
+
+- **Skills, Certifications, and Work Experience**  
+  As a user, you can update your skills, certifications, and work experience within your profile.
+
+---
+
+## Job Search and Application
+
+- **Job Search**  
+  As a user, you can search for jobs using keywords, location, and job categories.
+
+- **Filter Job Search**  
+  As a user, you can filter job search results by company, experience level, salary range, and job type (full-time, part-time, contract).
+
+- **Job Details**  
+  As a user, you can view detailed information about a job, including the company, job description, requirements, and application deadline.
+
+- **Job Application**  
+  As a user, you can apply for jobs directly through the portal by submitting your resume and a cover letter.
+
+- **Application Tracking**  
+  As a user, you can track the status of your job applications.
+
+---
+
+## Employer Functionality
+
+- **Job Posting**  
+  As an employer, you can create, update, and delete job postings, as well as set their visibility (public or private).
+
+- **Applicant Management**  
+  As an employer, you can view and manage applications for your job postings, and contact applicants directly through the portal.
+
+---
+
+## Notifications and Alerts
+
+- **Job Alerts**  
+  As a user, you will receive email notifications for new job postings that match your search criteria.
+
+- **Application Status Notifications**  
+  As a user, you will receive email notifications about the status of your job applications.
+
+---
+
+## Additional Features
+
+- **Saved Jobs**  
+  As a user, you can save job postings to view and apply for them later.
+
+- **Company Profiles**  
+  As a user, you can view detailed profiles of companies, including their description, location, and current job postings.
+
+- **User Dashboard**  
+  As a user, you will have a dashboard that summarizes your recent activity, such as saved jobs, applied jobs, and recommended jobs.
+
+---
+
+## Responsiveness and Animations
+
+- The application is fully responsive across devices such as mobile, tablet, and desktop.
+- Smooth animations enhance the user experience while navigating through the platform.
+
+---
+
+## User Registration and Authentication
+
+- **Email and Password Registration**  
+  As a user, you can register an account using your email and password.
+
+- **Social Media Registration**  
+  As a user, you can register using your social media accounts like Google or LinkedIn.
+
